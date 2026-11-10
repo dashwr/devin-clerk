@@ -4,22 +4,35 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "MoodLog",
+  description:
+    "A daily mood journal: check in how you feel, add a quick note, and spot patterns over time.",
+  emoji: "😌",
+  accent: "#0f766e",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Daily check-in",
+      description: "Pick a mood and write a quick note in under 10 seconds.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Mood calendar",
+      description: "A color-coded month view of your entries at a glance.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Mood trends",
+      description: "Charts showing how your average mood changes over time.",
+    },
+    {
+      title: "Streaks & reminders",
+      description: "A daily reminder and streak counter to keep the habit alive.",
+    },
+    {
+      title: "Tag your days",
+      description: "Tag entries with sleep, exercise or work to spot patterns.",
+    },
+    {
+      title: "Weekly recap",
+      description: "A shareable summary of how your week went, mood-wise.",
     },
   ] satisfies Feature[],
 };
